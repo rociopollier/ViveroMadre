@@ -19,7 +19,7 @@ export default function Home() {
     { name: "Arbustos", image: "/placeholder.svg?height=200&width=300" },
     { name: "Plantas de Interior", image: "/placeholder.svg?height=200&width=300" },
     { name: "Árboles", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Categoría 7", image: "/placeholder.svg?height=200&width=300" },
+    { name: "Semillas Hortalizas", image: "/placeholder.svg?height=200&width=300" },
     { name: "Categoría 8", image: "/placeholder.svg?height=200&width=300" },
     { name: "Categoría 9", image: "/placeholder.svg?height=200&width=300" },
     { name: "Categoría 10", image: "/placeholder.svg?height=200&width=300" },
