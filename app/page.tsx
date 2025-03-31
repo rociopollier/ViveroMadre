@@ -9,7 +9,7 @@ import MobileMenu from "@/components/mobile-menu"
 import Logo from "@/components/logo"
 
 export default function Home() {
-  const whatsappNumber = "5493547514197"
+  const whatsappNumber = "+5493547514197"
   const whatsappUrl = `https://wa.me/${whatsappNumber}`
 
   const plantCategories = [
