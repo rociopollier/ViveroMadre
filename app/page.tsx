@@ -13,44 +13,44 @@ export default function Home() {
   const whatsappUrl = `https://wa.me/${whatsappNumber}`
 
   const plantCategories = [
-    { name: "Suculentas", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Cactus", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Flores", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Arbustos", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Plantas de Interior", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Árboles", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Semillas Hortalizas", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Categoría 8", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Categoría 9", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Categoría 10", image: "/placeholder.svg?height=200&width=300" },
-    { name: "Categoría 11", image: "/placeholder.svg?height=200&width=300" },
+    { name: "Suculentas", image: "/suculentas.png?height=200&width=300" },
+    { name: "Cactus", image: "/cactus.png?height=200&width=300" },
+    { name: "Flores", image: "/flores.png?height=200&width=300" },
+    { name: "Arbustos", image: "/arbustos.png?height=200&width=300" },
+    { name: "Plantas de Interior", image: "/plantasdeinterior.png?height=200&width=300" },
+    { name: "Árboles", image: "/arboles.png?height=200&width=300" },
+    { name: "Semillas Hortalizas", image: "/semillashortalizas.png?height=200&width=300" },
+    { name: "Semillas Aromáticas", image: "/semillasaromaticas.png?height=200&width=300" },
+    { name: "Semillas Florales", image: "/semillasflorales.png?height=200&width=300" },
+    { name: "Semillas de Hierbas para Gatos y Perros", image: "/semillasdehierbasparagatosyperros.png?height=200&width=300" },
+    { name: "Semilla de Césped Resiembra Otoñal", image: "/semillasdecespedresiembraotoñal.png?height=200&width=300" },
   ]
 
   const services = [
     {
       name: "Poda de Árboles",
       description: "Servicio profesional de poda y mantenimiento de árboles para mantener su salud y estética.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/podadearboles.png?height=200&width=300",
     },
     {
       name: "Lirios",
       description: "Cultivo y cuidado especializado de lirios para embellecer su jardín con estas elegantes flores.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/lirios.png?height=200&width=300",
     },
     {
       name: "Paisajismo",
       description: "Diseño y planificación de espacios verdes para crear ambientes armoniosos y funcionales.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/paisajismo.png?height=200&width=300",
     },
     {
       name: "Plantación",
       description: "Servicio completo de plantación para asegurar el correcto desarrollo de sus plantas y jardines.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/plantacion.png?height=200&width=300",
     },
     {
       name: "Asesoramiento",
       description: "Consultoría personalizada para el cuidado y mantenimiento de sus plantas y espacios verdes.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/asesoramiento.png?height=200&width=300",
     },
   ]
 
@@ -58,22 +58,22 @@ export default function Home() {
     {
       name: "Macetas",
       description: "Variedad de macetas de diferentes materiales, tamaños y estilos",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/macetas.png?height=200&width=300",
     },
     {
       name: "Organizadores",
       description: "Muebles y estantes para organizar sus plantas de manera estética",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/organizadores.png?height=200&width=300",
     },
     {
       name: "Decoración",
       description: "Elementos decorativos para embellecer su jardín y espacios verdes",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/decoracion.png?height=200&width=300",
     },
     {
       name: "Insumos",
       description: "Tierra, fertilizantes y herramientas para el cuidado de sus plantas",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/insumos.png?height=200&width=300",
     },
   ]
 
@@ -150,7 +150,7 @@ export default function Home() {
 
             <div className="mt-12 rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=500&width=1000"
+                src="/imagenreprecentativa.png?height=500&width=1000"
                 alt="Variedad de plantas y flores en Vivero Madre"
                 width={1000}
                 height={500}
